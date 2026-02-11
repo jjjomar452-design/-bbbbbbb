@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzBoH02NzRyBO63c_xHmJrBLuX99hhxRbpnWIIeMXATL6HJ13Vfh0z8j40IqvNOzCW9WA/exec' // Hot el URL mte3ek hna
+const scriptURL = 'https://script.google.com/macros/s/AKfycbx6I0PPB5STxtPgWYdluKColGykfxhJgy9NjzcsuQUQpn1w944EDDu56QHQbGXG6rjIxQ/exec' // Hot el URL mte3ek hna
 
 const form = document.getElementById('contactForm')
 const btn = document.getElementById('submitBtn')
@@ -25,4 +25,5 @@ form.addEventListener('submit', e => {
         btn.innerHTML = "Envoyer"
         alert('Erreur lors de l\'envoi.')
     })
+
 })
